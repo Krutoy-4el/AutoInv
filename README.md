@@ -11,8 +11,8 @@ Automatic storage management for OpenComputers robot
  - Inventory Upgrade
  - Inventory Controller Upgrade
 
-# Installation
-No custom installer for now. Just copy files into your robot's filesystem.
+# Installation (requires internet card)
+`wget https://github.com/Krutoy-4el/AutoInv/raw/main/installer.lua && installer`
 
 # Configuration
 You only need to put size of your storage in `size.cfg`. More detailed instructions and screenshots coming soon.
