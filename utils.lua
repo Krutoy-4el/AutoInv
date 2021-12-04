@@ -43,11 +43,8 @@ end
 
 function utils.extractNums(str)
     local res = {}
-    local numbers = str:gmatch("-?%d+")
-    local num = numbers()
-    while num do
+    for num in str:gmatch("-?%d+") do
         table.insert(res, tonumber(num))
-        num = numbers()
     end
     return res
 end
