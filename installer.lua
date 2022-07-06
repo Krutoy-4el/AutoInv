@@ -1,4 +1,4 @@
-local base = "https://github.com/Krutoy-4el/AutoInv/raw/main/"
+local base = "https://github.com/Krutyi-4el/AutoInv/raw/main/"
 local files = {
     "autoinv.lua",
     "itemReceiver.lua",
